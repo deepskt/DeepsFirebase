@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "157751694779",
+    "firebase_url": "https://omproject-35087.firebaseio.com",
+    "project_id": "omproject-35087",
+    "storage_bucket": "omproject-35087.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157751694779:android:4b9b070f5a421b67",
+        "android_client_info": {
+          "package_name": "info.deepakom.deepakom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157751694779-o3vcqil555ieklnbepbncf76316u8uci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQJMK7EyVSnhz8MUNamUbjPleQ2fsZtRc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/app_toolbar"
+    style="@style/ToolBarStyle.Base"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary">
+    <TextView
+        android:id="@+id/tbTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:maxLength="23"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/color_white" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ed_search"
+        android:textColor="@color/color_white"
+        android:textColorHint="@color/grey_300"
+        android:background="@null"
+        android:textCursorDrawable="@null"
+        android:hint="Type here to search.."
+        android:layout_margin="1dp"
+        android:maxLines="1"
+        android:lines="1"
+        android:inputType="text"
+        android:paddingLeft="2dp"
+        android:visibility="gone"
+        android:nextFocusDown="@id/ed_search"
+        android:nextFocusForward="@id/ed_search"
+        android:nextFocusLeft="@id/ed_search"
+        android:nextFocusRight="@id/ed_search"
+        android:nextFocusUp="@id/ed_search" />
+
+</android.support.v7.widget.Toolbar>
